@@ -1,1 +1,39 @@
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 30px;
+}
 
+/* Kotak artikel */
+.artikel {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul artikel */
+h1 {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* Isi artikel */
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Efek ketika kursor diarahkan ke kotak artikel */
+.artikel:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
